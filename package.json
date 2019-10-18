@@ -1,0 +1,51 @@
+{
+  "name": "donteco-test-task",
+  "version": "1.0.0",
+  "description": "simple widget",
+  "main": "index.js",
+  "scripts": {
+    "start-dev-server": "webpack-dev-server --hot --inline --config ./config/dev-server.config.js",
+    "production-build": "node build-script.js production",
+    "debug-build": "node build-script.js development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemonProger/Donteco-Test-Task.git"
+  },
+  "author": "D.A.T.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DemonProger/Donteco-Test-Task/issues"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env",
+      "@babel/react"
+    ]
+  },
+  "homepage": "https://github.com/DemonProger/Donteco-Test-Task#readme",
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "bootstrap": "^4.3.1",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "react": "^16.10.2",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dev-utils": "^9.1.0",
+    "react-dom": "^16.10.2",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  }
+}
