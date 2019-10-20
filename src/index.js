@@ -1,9 +1,12 @@
 
 import React from "react"
 import ReactDOM from "react-dom"
-import { Alert } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
+import WeatherWidget from './weather-widget/weather-widget.jsx'
 
 ReactDOM.render(
-    <Alert variant={'success'}>Initialized</Alert>
+    <Container>
+        <WeatherWidget widgetName='Погода на ближайшие 3 дня' cityName='Ростов-на-Дону' />
+    </Container>
     , document.getElementById('app')
 )
