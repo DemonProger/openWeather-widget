@@ -43,6 +43,10 @@ class WeatherApi {
                 icon = w.weather[0].icon
 
             let day = date - currentDate
+            if (!day)
+                continue // сегодняшний день пропускается
+
+            --day
             if (!res[day])
                 continue
 
