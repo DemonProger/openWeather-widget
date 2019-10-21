@@ -6,7 +6,7 @@ import Styles from './app.module.css'
 
 const App = props => {
     return (
-        <Container className={Styles.WideContainer}>
+        <Container>
             <WeatherWidget widgetName='Погода на ближайшие 3 дня' cityName='Ростов-на-Дону' />
         </Container>
     )
