@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start-dev-server": "webpack-dev-server --hot --inline --config ./config/dev-server.config.js",
-    "test": "jest --watchAll",
+    "test": "jest",
     "production-build": "node build-script.js production",
     "debug-build": "node build-script.js development"
   },
